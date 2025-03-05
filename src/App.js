@@ -8,6 +8,7 @@ import Cookie from './Components/Cookie';
 import LoginBtn from './Components/LoginBtn';
 import SignUpNavigation from './Components/SignUpNavigation';
 import { Route, Router, Routes } from 'react-router-dom';
+import Array from './Components/Array';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path='/login' element={<LoginBtn/>}></Route>
      </Routes>
      <hr></hr>
+     <Array />
      
 
 
